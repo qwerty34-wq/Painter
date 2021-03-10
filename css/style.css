@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 60px;
+  background-color: #5f5f5f;
+}
+.header .flex-container {
+  display: flex;
+  height: 60px;
+  align-items: center;
+}
+.header .flex-container img {
+  height: 50px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+  transition-property: border;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+.header .flex-container img:hover {
+  border: 1px solid red;
+}
+.header .flex-container #btnMinus {
+  border: 0px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.header .flex-container #numField {
+  width: 70px;
+  text-align: center;
+}
+.header .flex-container #numField::selection {
+  background: transparent;
+}
+.header .flex-container #btnPlus {
+  border: 0px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.header .flex-container .item {
+  border: 1px solid black;
+  width: 50px;
+  height: 45px;
+  margin: 3px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.header .flex-container #item-green {
+  background-color: green;
+}
+.header .flex-container #item-red {
+  background-color: red;
+}
+.header .flex-container #item-blue {
+  background-color: blue;
+}
+.header .flex-container #item-yellow {
+  background-color: yellow;
+}
+.header .flex-container #item-orange {
+  background-color: orange;
+}
+.header .flex-container #item-purple {
+  background-color: purple;
+}
+.header .flex-container #item-black {
+  background-color: black;
+  border: 4px solid #c5c5c5;
+}
+.header .flex-container #item-white {
+  background-color: white;
+}
+.header .counter {
+  justify-content: center;
+}
+
+.canvasBlock {
+  padding: 0;
+}
+.canvasBlock .canvas {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  border: 5px solid #5f5f5f;
+  cursor: crosshair;
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: #5f5f5f;
+}
+.footer .block {
+  color: white;
+  text-align: center;
+  margin: 10px;
+}
